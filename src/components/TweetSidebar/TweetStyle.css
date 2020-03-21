@@ -1,0 +1,12 @@
+.twitter_block {
+  float: right;
+  margin-right: 100px;
+}
+.twitter_timeline {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-color:#D3D3D3;
+  border-width: thin;
+  border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+{
+  "name": "politic-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf -r ./dist ./.cache",
+    "build": "npm run clean && parcel build src/index.html -d ./dist/ --public-url ./",
+    "start": "npm run clean && parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyyen3323/politic-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyyen3323/politic-app/issues"
+  },
+  "homepage": "https://github.com/tommyyen3323/politic-app#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.3.1",
+    "@material-ui/icons": "^4.2.1",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "node-fetch": "^2.6.0",
+    "parcel-bundler": "^1.12.3",
+    "popper.js": "^1.15.0",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-modules": "^1.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-dom": "^16.8.6",
+    "react-grid-system": "^4.4.10",
+    "react-navbar": "^3.0.0",
+    "react-router-dom": "^5.0.1",
+    "react-swipeable-views": "^0.13.3",
+    "react-twitter-embed": "^2.0.8",
+    "reactstrap": "^8.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "node-sass": "^4.12.0",
+    "rimraf": "^2.6.3"
+  }
+}

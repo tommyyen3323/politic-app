@@ -1,0 +1,49 @@
+.main {
+  font-family: 'Avenir';
+  margin-top: 20px;
+}
+
+.infoBlock {
+  width: 500px;
+  height: 100px;
+  padding: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.politicianImg img {
+  margin-right: 15px;
+  float: left;
+
+}
+
+.infoBlock h5,
+.infoBlock p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.infoBlock p {
+  font-size: 12px;
+}
+
+.grayLine {
+  color: lightgray;
+  float: left;
+  width: 60%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+  font-size: 40px;
+  color: black;
+}
+
+.subheader {
+  font-size: 20px;
+  color: 	#7789AA;
+}

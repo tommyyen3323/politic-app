@@ -1,0 +1,51 @@
+.main {
+  margin: 50px;
+}
+
+.title {
+  font-family: 'Avenir';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+//for bills - row 2
+.infoBlock {
+  width: 450px;
+  height: 90px;
+  background-color: #e9e9e9;
+  padding: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.infoBlock:hover {
+  background-color:lightgray;
+  text-decoration: none;
+}
+
+.blockTitle { //"Relevant Bills"
+  font-family: 'Avenir';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px
+}
+
+.infoBlock h5 { //Bill Name
+  font-family: 'Avenir';
+  font-size: 20px;
+}
+
+.infoBlock h5,
+.infoBlock p{ //Name and subheader
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+div .link {
+  text-decoration: none;
+}
