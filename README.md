@@ -1,1 +1,1 @@
-# political-project-frontend
+# Politic App
